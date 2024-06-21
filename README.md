@@ -4,7 +4,7 @@ Este script em Python interage com a PokéAPI para obter informações detalhada
 
 #### Visão Geral
 
-O script utiliza Python e faz uso da biblioteca `requests` para buscar dados da PokéAPI (https://pokeapi.co/). Ele itera por várias páginas de dados de Pokémon, recupera informações específicas para cada Pokémon e então armazena esses dados em um arquivo JSON para uso posterior.
+O script utiliza Python e faz uso da biblioteca `requests` para buscar dados da [PokéAPI ](https://pokeapi.co/). Ele itera por várias páginas de dados de Pokémon, recupera informações específicas para cada Pokémon e então armazena esses dados em um arquivo JSON para uso posterior.
 
 #### Pré-requisitos
 
