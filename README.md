@@ -20,7 +20,7 @@ pip install requests
    Clone este repositório para sua máquina local usando Git:
 
    ```bash
-   git clone https://github.com/seu/repositório.git
+   git clone https://github.com/IraanC/POKEMON_api.git
    ```
 
 2. **Navegar até o Diretório:**
@@ -42,7 +42,7 @@ pip install requests
 4. **Saída:**
    - O script imprimirá os IDs dos Pokémon conforme os recupera (para fins de teste).
    - Uma vez que todos os dados são recuperados, ele imprimirá a lista completa das informações dos Pokémon.
-   - Por fim, salvará essas informações em um arquivo JSON (`pkmInfos.json`) no local especificado (`C:\Users\irans\arquivo\arUni\`, neste caso).
+   - Por fim, salvará essas informações em um arquivo JSON (`pkmInfos.json`) no local especificado (`C:\Users\seu_usuario\nome_arquivo`, neste caso).
 
 #### Explicação do Script
 
