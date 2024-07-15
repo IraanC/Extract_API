@@ -6,43 +6,6 @@ Este script em Python interage com a PokéAPI para obter informações detalhada
 
 O script utiliza Python e faz uso da biblioteca `requests` para buscar dados da [PokéAPI ](https://pokeapi.co/). Ele itera por várias páginas de dados de Pokémon, recupera informações específicas para cada Pokémon e então armazena esses dados em um arquivo JSON para uso posterior.
 
-#### Pré-requisitos
-
-Certifique-se de ter o Python instalado no seu sistema. Você pode instalar o Python em [python.org](https://www.python.org/downloads/), se ainda não estiver instalado. Além disso, instale a biblioteca `requests` usando:
-
-```bash
-pip install requests
-```
-
-#### Como Usar
-
-1. **Clonar o Repositório:**
-   Clone este repositório para sua máquina local usando Git:
-
-   ```bash
-   git clone https://github.com/IraanC/POKEMON_api.git
-   ```
-
-2. **Navegar até o Diretório:**
-   Abra um terminal ou prompt de comando e mude para o diretório onde o script (`pokemon_info.py`) está localizado:
-
-   ```bash
-   cd caminho/para/seu/repositório
-   ```
-
-3. **Executar o Script:**
-   Execute o script usando Python:
-
-   ```bash
-   python pokemon_info.py
-   ```
-
-   Isso iniciará a recuperação de dados dos Pokémon da PokéAPI.
-
-4. **Saída:**
-   - O script imprimirá os IDs dos Pokémon conforme os recupera (para fins de teste).
-   - Uma vez que todos os dados são recuperados, ele imprimirá a lista completa das informações dos Pokémon.
-   - Por fim, salvará essas informações em um arquivo JSON (`pkmInfos.json`) no local especificado (`C:\Users\seu_usuario\nome_arquivo`, neste caso).
 
 #### Explicação do Script
 

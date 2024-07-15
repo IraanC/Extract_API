@@ -1,8 +1,7 @@
 import requests
 import json
   
-# contador
-counter = 1
+
 # O endereço da API, foi atribuito em uma variável para facilitar a manuntenção :
 url = "https://pokeapi.co/api/v2/pokemon/"
 # lista para armazenar as informações dos pokemons: 
