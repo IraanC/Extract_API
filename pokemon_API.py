@@ -15,7 +15,7 @@ while url != None:
     for it in response['results']:
         pokemon_name = (it["name"])
 
-        # url para buscar informações por nome :
+        # url para buscar informações por nome:
         url_pokemon = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
         response_pokemon = json.loads(requests.request("GET", url_pokemon).text) 
 
